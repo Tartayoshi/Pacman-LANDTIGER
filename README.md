@@ -58,7 +58,7 @@ The game is built around a state machine architecture, driven by hardware interr
   <source src="/docs/videos/V1_Explenation.mp4" type="video/mp4">
 </video> -->
 
-[![Watch Demo on YouTube](https://img.youtube.com/vi/4j-t7Of7gTc/maxresdefault.jpg)](https://youtu.be/4j-t7Of7gTc)
+[![Watch Demo on YouTube](https://img.youtube.com/vi/4j-t7Of7gTc/hqdefault.jpg)](https://youtu.be/4j-t7Of7gTc)
 
 ### State Machine & Game Loop
 The main game logic is managed by a state machine within `gameEngine.c`, cycling through states like `LOADING`, `READY`, `INGAME`, `PAUSE`, and `GAMEOVER`.
