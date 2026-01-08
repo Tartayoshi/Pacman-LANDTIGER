@@ -13,6 +13,18 @@ GLCD library, but I'm not sure that I had every possible screen - board combinat
 >
 >So if any glitches are present on the screen, try using a diffrent board/screen combination!
 
+- [Pacman for LandTiger Borad](#pacman-for-landtiger-borad)
+- [Specifications](#specifications)
+- [Demo Run (Video)](#demo-run-video)
+- [Implementation](#implementation)
+    - [State Machine \& Game Loop](#state-machine--game-loop)
+    - [Rendering Engine](#rendering-engine)
+    - [Input Handling](#input-handling)
+    - [Artificial Intelligence (Ghost)](#artificial-intelligence-ghost)
+    - [Sound Engine](#sound-engine)
+- [Installation](#installation)
+
+
 # Specifications
 The project had to follow thight specifcation that made it look the way it is.
 
@@ -32,17 +44,21 @@ movement). The game starts in “PAUSE” mode.
 
 # Demo Run (Video)
 
-<video width="1200" height="480" controls>
+<!-- <video width="1200" height="480" controls>
   <source src="/docs/videos/V2_Gameplay.mp4" type="video/mp4">
-</video>
+</video> -->
+
+[![Watch Explenation on YouTube](https://img.youtube.com/vi/cxqU0tUidUw/maxresdefault.jpg)](https://youtu.be/cxqU0tUidUw)
 
 # Implementation
 
 The game is built around a state machine architecture, driven by hardware interrupts for timing, input, and sound. The core design choices are outlined below:
 
-<video width="1200" height="480" controls>
+<!-- <video width="1200" height="480" controls>
   <source src="/docs/videos/V1_Explenation.mp4" type="video/mp4">
-</video>
+</video> -->
+
+[![Watch Demo on YouTube](https://img.youtube.com/vi/4j-t7Of7gTc/maxresdefault.jpg)](https://youtu.be/4j-t7Of7gTc)
 
 ### State Machine & Game Loop
 The main game logic is managed by a state machine within `gameEngine.c`, cycling through states like `LOADING`, `READY`, `INGAME`, `PAUSE`, and `GAMEOVER`.
