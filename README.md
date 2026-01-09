@@ -1,6 +1,6 @@
 # Pacman for LandTiger Borad
 
-*Classic Pacman port for LandTiger board written `C`*
+*Classic Pacman port for LandTiger board written `C`, Computer Architecture exam project*
 
 ![Pac Man](https://www.customcontrollers.com/cdn/shop/articles/Untitled_-_2025-04-30T111838.925_f657f1cf-c1a6-40c0-b5ea-2503357193b2.png?v=1747385518&width=1400)
 
