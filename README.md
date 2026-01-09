@@ -101,6 +101,6 @@ The sound system is integrated directly into the 50ms `RIT` interrupt handler.
 ---
 
 # Installation
-To run the project you need to open the project with [KEIL](https://www.keil.com/) environment setted up for LPC1768 LANDTIGER board.
+To run the project you need to open it with [KEIL](https://www.keil.com/) environment, setted up for LPC1768 LANDTIGER board.
 
-While it can ran also on simulators it might run slowed or in an incorrect way.
+As far as I tested, LandTigers simulators can't run this project propherly.
